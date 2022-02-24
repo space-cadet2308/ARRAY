@@ -115,11 +115,8 @@ int main(){
         printf("Zero Value Is Present\n");
     }
 /*---------------------------------------------------------------------------------------------------*/
-   /* Create one more ID array and compare the two ID arrays for values*/
 
-   /* Create one more ID character array and compare the two ID char arrays for values*/
-/*---------------------------------------------------------------------------------------------------*/
-   /* Find the sum of all elements in an array*/
+   /* Q9) Find the sum of all elements in an array*/
    int c = 0;
    for ( int i = 0; i < 2; i++)
    {
