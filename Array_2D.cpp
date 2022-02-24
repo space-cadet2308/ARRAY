@@ -21,6 +21,7 @@ int main(){
          }
       }
    }
+ /*---------------------------------------------------------------------------------------------------*/
    /* Q1) Insert the elements in all the odd numbered position of the array*/
 
   int oa[2][3];
