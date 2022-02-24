@@ -21,7 +21,7 @@ int main()
 
 	
 
-/* O Insert one element into the array 
+//Insert one element into the array 
 
     int x, pos, n = 5;
  
@@ -50,20 +50,23 @@ int main()
         printf("%d ", arr[i]);
     printf("\n");
  
-*/
-// Insert the given number of elements into the array 
-	
-/* Remove the duplicate elements in an array*/
-/* Remove one element from the array 
+
+// Insert the given number of elements into the array 	
+// Remove the duplicate elements in an array
+// Remove one element from the array 
 	int z;
+	
 	printf("Enter the position to be removed: %d", z);
 	scanf("%d", &z);
+	
 	for (i = z - 1; i < 4; i++)  
         {  
             arr[i] = arr[i+1]; // assign arr[i+1] to arr[i]  
         }  
-    printf("array with removed element: %d", arr);*/
-/* O Search the given element in the array and print it's position
+	
+	printf("array with removed element: %d", arr);
+	
+// Search the given element in the array and print it's position
 	int toSearch, found;
 	printf("\nEnter element to search: ");
     scanf("%d", &toSearch);
@@ -92,7 +95,7 @@ int main()
     {
         printf("\n%d is not found in the array", toSearch);
     }
-/* O Check whether the array has non zero values in a position
+// Check whether the array has non zero values in a position
 	
 	 for (i = 0; i < 5; i++){
 		if (arr[i] == 0)
@@ -104,8 +107,8 @@ int main()
             break;
 		}
     
-/* Create one more ID array and compare the two ID arrays for values*/
-/* O Create one more ID character array and compare the two ID char arrays for values
+// Create one more ID array and compare the two ID arrays for values*/
+// Create one more ID character array and compare the two ID char arrays for values
 	int arr2[5];
     
 
@@ -122,8 +125,7 @@ int main()
             printf("They are equal. \n");
         
     }
-*/
-/* O Find the sum of all elements in an array
+// O Find the sum of all elements in an array
 	int sum=0;
 	
 	//adding all the elements in array through loop
@@ -134,27 +136,24 @@ int main()
 		
 	printf("\nthe sum of all elements in an array: %d", sum);
 	
-	return 0;
-
-*/
-/* O Find the maximum number of elements in an array
+// Find the maximum number of elements in an array
 	//Calculate length of array arr    
-    int length = sizeof(arr)/sizeof(arr[0]);    
+	int length = sizeof(arr)/sizeof(arr[0]);    
         
-    //Initialize max with first element of array.    
-    int max = arr[0];    
+    	//Initialize max with first element of array.    
+    	int max = arr[0];    
         
-    //Loop through the array    
-    for (int i = 0; i < length; i++) {     
+    	//Loop through the array    
+    	for (int i = 0; i < length; i++) {     
         //Compare elements of array with max    
-       if(arr[i] > max)
+       	if(arr[i] > max)
 	       max = arr[i];    
-    }      
-    printf("\nLargest element present in given array: %d\n", max);    
-    return 0;    
- */
+    	}      
+    	printf("\nLargest element present in given array: %d\n", max);    
+    
    
-/* O Find the minimum number of elements in an array
+// O Find the minimum number of elements in an array
+	
 	//Calculate length of array arr
 	int length = sizeof(arr)/sizeof(arr[0]);
 	
@@ -168,7 +167,6 @@ int main()
 			min = arr[i];
 	}
 	printf("\nSmallest element present in given array: %d\n", min);
-	return 0;
+	
 
-*/
 }
